@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Moviecard from "./Moviecard";
 import Searchicon from "./magnifying-glass.png";
-const API_URL = "http://www.omdbapi.com?apikey=7001c879";
+const API_URL = "https://www.omdbapi.com?apikey=7001c879";
 const movie1 = {
   Title: "Italian Spiderman",
   Year: "2007",
